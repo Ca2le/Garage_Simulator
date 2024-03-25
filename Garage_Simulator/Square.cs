@@ -8,7 +8,7 @@
 
         public abstract bool Active();
         public abstract string Color();
-        public abstract char Texture();
+        public abstract string Texture();
 
     }
 }

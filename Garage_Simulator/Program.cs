@@ -4,9 +4,12 @@
     {
         static void Main(string[] args)
         {
-            
-           Grid grid = new Grid();
-            grid.Render();
+            Controller controller = new Controller();
+            Grid grid = new Grid();
+            Keyboard keyboard = new Keyboard();
+            keyboard.Off();
+            Display display = new Display();
+            grid.Render(grid.CurrentGrid);
         }
     }
 }

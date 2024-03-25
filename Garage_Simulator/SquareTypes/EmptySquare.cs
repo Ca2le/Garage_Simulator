@@ -10,11 +10,11 @@ namespace Garage_Simulator
     {
         public override string Color()
         {
-            return "red";
+            return "green";
         }
-        public override char Texture()
+        public override string Texture()
         {
-            return ' ';
+            return "  ";
         }
         public override bool Active()
         {

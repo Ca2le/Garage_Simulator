@@ -4,6 +4,6 @@
     {
         bool Active();
         string Color();
-        char Texture();
+        string Texture();
     }
 }
