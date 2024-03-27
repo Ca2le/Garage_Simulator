@@ -8,9 +8,9 @@ namespace Garage_Simulator
 {
     internal class BusySquare : Square
     {
-        public override string Color()
+        public override ConsoleColor Color()
         {
-            return "red";
+            return ConsoleColor.Red;
         }
         public override string Texture()
         {

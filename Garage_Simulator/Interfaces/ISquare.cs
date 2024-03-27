@@ -3,7 +3,7 @@
     internal interface ISquare
     {
         bool Active();
-        string Color();
+        ConsoleColor Color();
         string Texture();
     }
 }

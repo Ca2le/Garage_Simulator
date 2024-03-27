@@ -8,9 +8,9 @@ namespace Garage_Simulator
 {
     internal class EmptySquare : Square
     {
-        public override string Color()
+        public override ConsoleColor Color()
         {
-            return "green";
+            return ConsoleColor.Green;
         }
         public override string Texture()
         {

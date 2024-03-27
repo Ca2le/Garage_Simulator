@@ -1,12 +1,14 @@
-﻿namespace Garage_Simulator
+﻿using System.Text.Json;
+
+namespace Garage_Simulator
 {
     internal class Grid
     {
-        private ColorBook _colorBook;
         public Grid()
         {
-            this.CreateEmptyGrid(10);
-            this._colorBook = new ColorBook();
+           
+            this.CreateEmptyGrid(GarageConfig.Get.GridSize);
+       
         }
         public Square[,] CurrentGrid { get; set; }
 
@@ -30,10 +32,10 @@
             {
                 for (int j = 0; j < grid.GetLength(1); j++)
                 {
-                    string color = grid[i, j].Color();
-                    ConsoleColor currentColor = _colorBook.GetColor(color);
+                    ConsoleColor color = grid[i, j].Color();
+               
                     string texture = grid[i, j].Texture();
-                    Console.BackgroundColor = currentColor;
+                    Console.BackgroundColor = color;
 
                     if (j == grid.GetLength(1)-1)
                     {

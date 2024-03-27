@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garage_Simulator", "Garage_Simulator\Garage_Simulator.csproj", "{421A8AD6-61B7-421E-A490-896A7BC63C82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garage_Simulator.test2", "Garage_Simulator.test2\Garage_Simulator.test2.csproj", "{946FCF5B-61CC-4549-9232-AEDB60C49644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{421A8AD6-61B7-421E-A490-896A7BC63C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{421A8AD6-61B7-421E-A490-896A7BC63C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{421A8AD6-61B7-421E-A490-896A7BC63C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946FCF5B-61CC-4549-9232-AEDB60C49644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946FCF5B-61CC-4549-9232-AEDB60C49644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946FCF5B-61CC-4549-9232-AEDB60C49644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946FCF5B-61CC-4549-9232-AEDB60C49644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

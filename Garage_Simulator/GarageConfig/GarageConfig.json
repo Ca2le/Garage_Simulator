@@ -1,0 +1,25 @@
+{
+  "GridSize": 10,
+  "VehicleTypes": [
+    {
+      "Vehicle": "Car",
+      "Color": "darkmagenta",
+      "Size": 2
+    },
+    {
+      "Vehicle": "MC",
+      "Color": "darkcyan",
+      "Size": 1
+    },
+    {
+      "Vehicle": "BattleTank",
+      "Color": "darkyellow",
+      "Size": 3
+    },
+    {
+      "Vehicle": "AirPlane",
+      "Color": "darkblue",
+      "Size": 5
+    }
+  ]
+}
